@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.author       = { "You" => "nomanmakh@yahoo.com" }
     s.source       = { :git => "https://github.com/nomanmakh098/MySharedLibrary.git", :tag => "#{s.version}" }
     
-    s.platform     = :ios, "13.0"
+    s.platform     = :ios, "12.0"
     s.swift_version = "5.0"
 
     s.source_files = "Sources/**/*.{swift}"
